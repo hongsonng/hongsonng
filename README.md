@@ -49,20 +49,27 @@
 
 ---
 
+### 🐍 Contribution Graph
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hongsonng/hongsonng/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hongsonng/hongsonng/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/hongsonng/hongsonng/output/github-contribution-grid-snake-dark.svg">
+  </picture>
+</div>
+
+---
+
 ### 💫 GitHub Stats
 
 <table align="center" width="100%">
   <tr>
     <td align="center" width="50%">
-      <img src="https://streak-stats.demolab.com/?user=hongsonng&theme=dracula&hide_border=true" alt="GitHub Streak" width="100%" />
-    </td>
-    <td align="center" width="50%">
       <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=hongsonng&show_icons=true&theme=dracula&border_radius=10" alt="GitHub Stats" width="100%" />
     </td>
-  </tr>
-  <tr>
-    <td align="center" colspan="2">
-      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=hongsonng&layout=compact&theme=dracula&border_radius=10" alt="Top Languages" width="70%" />
+    <td align="center" width="50%">
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=hongsonng&layout=compact&theme=dracula&border_radius=10" alt="Top Languages" width="100%" />
     </td>
   </tr>
 </table>
