@@ -76,6 +76,25 @@
 
 ---
 
+### 📫 Connect with Me
+
+<div align="center">
+
+[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/hongsonng)
+
+<br/>
+
+<a href="https://t.me/hongsonng">
+  <img src="./assets/telegram-qr.png" width="220" alt="Telegram QR @hongsonng" />
+</a>
+
+<br/>
+<sub>Scan QR code or click badge to connect via Telegram (@hongsonng)</sub>
+
+</div>
+
+---
+
 <div align="center">
 
 ## 💖 Thanks for visiting!
