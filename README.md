@@ -58,9 +58,11 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=hongsonng&theme=dracula&hide_border=false&include_all_commits=true&count_private=true&layout=compact" height="190" alt="Top Languages" />
-  &nbsp;
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dracula" height="190" alt="Dev Quote" />
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=hongsonng&theme=dracula&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dracula" alt="Dev Quote" />
 </p>
 
 ---
