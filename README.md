@@ -49,30 +49,27 @@
 
 ---
 
-### 🐍 Contribution Graph
+### 💫 GitHub Stats
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hongsonng/hongsonng/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hongsonng/hongsonng/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/hongsonng/hongsonng/output/github-contribution-grid-snake-dark.svg">
-  </picture>
+
+<img src="https://github-readme-stats.shion.dev/api?username=hongsonng&theme=dracula&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats" /><br/><br/>
+
+<img src="https://streak-stats.demolab.com/?user=hongsonng&theme=dracula&hide_border=false" alt="GitHub Streak" /><br/><br/>
+
+<img src="https://github-readme-stats.shion.dev/api/top-langs/?username=hongsonng&theme=dracula&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" />
+
 </div>
 
 ---
 
-### 💫 GitHub Stats
+### ✍️ Random Dev Quote
 
-<table align="center" width="100%">
-  <tr>
-    <td align="center" width="50%">
-      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=hongsonng&show_icons=true&theme=dracula&border_radius=10" alt="GitHub Stats" width="100%" />
-    </td>
-    <td align="center" width="50%">
-      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=hongsonng&layout=compact&theme=dracula&border_radius=10" alt="Top Languages" width="100%" />
-    </td>
-  </tr>
-</table>
+<div align="center">
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dracula" alt="Dev Quote" />
+
+</div>
 
 ---
 
@@ -101,4 +98,3 @@
 <img src="https://i.imgur.com/tzYKRfd.gif" width="200" alt="Footer GIF" />
 
 </div>
-
