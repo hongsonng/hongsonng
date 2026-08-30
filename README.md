@@ -52,17 +52,16 @@
 ### 💫 GitHub Stats & Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.shion.dev/api?username=hongsonng&theme=dracula&hide_border=false&include_all_commits=true&count_private=true" height="190" alt="GitHub Stats" />
-  &nbsp;
-  <img src="https://streak-stats.demolab.com/?user=hongsonng&theme=dracula&hide_border=false" height="190" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.shion.dev/api?username=hongsonng&theme=dracula&hide_border=false&include_all_commits=true&count_private=true" height="155" alt="GitHub Stats" />
+  <img src="https://streak-stats.demolab.com/?user=hongsonng&theme=dracula&hide_border=false" height="155" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=hongsonng&theme=dracula&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" />
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=hongsonng&theme=dracula&hide_border=false&include_all_commits=true&count_private=true&layout=compact" height="165" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dracula" alt="Dev Quote" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dracula" height="165" alt="Dev Quote" />
 </p>
 
 ---
