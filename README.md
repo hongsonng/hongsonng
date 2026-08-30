@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/sweetbanner.svg" width="100%" alt="Animated Profile Banner" />
+  <img src="./assets/header-banner.svg" width="100%" alt="Animated Profile Banner" />
 </p>
 
 <div align="center">
