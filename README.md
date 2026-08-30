@@ -23,12 +23,8 @@
 
 ### 🦊 About Me
 
-<img align="right" width="140" src="./assets/avatar.png" alt="HONGSONNG Avatar" style="border-radius: 12px;" />
-
 - 💼 **Role:** Backend Developer (.NET) &nbsp;|&nbsp; ⏳ **Experience:** 1 year
 - ⚡ **Stacks:** .NET, React, Next.js, Node.js &nbsp;|&nbsp; 🎯 **Interests:** Distributed systems, UX/UI, Web Dev
-
-<br clear="all" />
 
 ---
 
