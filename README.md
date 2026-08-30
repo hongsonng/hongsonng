@@ -2,10 +2,6 @@
   <img src="./assets/banner.svg" width="100%" alt="Animated Profile Banner" />
 </p>
 
-<p align="center">
-  <img src="./assets/avatar.png" width="130" alt="HONGSONNG Avatar" />
-</p>
-
 <div align="center">
 
 # ~ 💖 Welcome to my Profile 💖 ~
