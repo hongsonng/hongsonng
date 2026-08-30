@@ -51,24 +51,17 @@
 
 ### 💫 GitHub Stats & Activity
 
-<table align="center" width="100%">
-  <tr>
-    <td align="center" width="50%">
-      <img src="https://github-readme-stats.shion.dev/api?username=hongsonng&theme=dracula&hide_border=false&include_all_commits=true&count_private=true" width="100%" alt="GitHub Stats" />
-    </td>
-    <td align="center" width="50%">
-      <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=hongsonng&theme=dracula&hide_border=false&include_all_commits=true&count_private=true&layout=compact" width="100%" alt="Top Languages" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <img src="https://streak-stats.demolab.com/?user=hongsonng&theme=dracula&hide_border=false" width="100%" alt="GitHub Streak" />
-    </td>
-    <td align="center" width="50%">
-      <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dracula" width="100%" alt="Dev Quote" />
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github-readme-stats.shion.dev/api?username=hongsonng&theme=dracula&hide_border=false&include_all_commits=true&count_private=true" height="190" alt="GitHub Stats" />
+  &nbsp;
+  <img src="https://streak-stats.demolab.com/?user=hongsonng&theme=dracula&hide_border=false" height="190" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=hongsonng&theme=dracula&hide_border=false&include_all_commits=true&count_private=true&layout=compact" height="190" alt="Top Languages" />
+  &nbsp;
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dracula" height="190" alt="Dev Quote" />
+</p>
 
 ---
 
