@@ -1,13 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 1441 302"
-     width="1441"
-     height="302"
-     style="background:#262c36">
-
-    <metadata><![CDATA[{"width":1441,"height":302,"backgroundColor":"#262c36","avatarUrl":"https://avatars.githubusercontent.com/u/69421356?v=4","avatarSize":90,"particleCount":3,"particleColor":"#f59e0b","waveColorStart":"#f59e0b","waveColorMid":"#fbbf24","waveColorEnd":"#f59e0b","glowColorStart":"#f59e0b","glowColorMid":"#f59e0b","glowColorEnd":"#f59e0b","borderEnabled":false,"borderColor":"#f59e0b","borderRadius":2,"borderSize":2,"meteors":[{"id":"1","iconSlug":"logos:react","iconColor":"","trailColor":"#61DAFB","startX":100,"angle":75,"duration":10,"delay":0,"iconUrl":"https://api.iconify.design/logos/react.svg"},{"id":"2","iconSlug":"logos:typescript-icon","iconColor":"","trailColor":"#3178C6","startX":300,"angle":75,"duration":10,"delay":3},{"id":"3","iconSlug":"logos:javascript","iconColor":"","trailColor":"#F7DF1E","startX":500,"angle":75,"duration":10,"delay":6,"iconUrl":"https://api.iconify.design/logos/javascript.svg"},{"id":"1788049960959","iconSlug":"logos:nodejs-icon","iconColor":"","trailColor":"#339933","startX":1170.4708025949565,"angle":75,"duration":10,"delay":7.9,"iconUrl":"https://api.iconify.design/logos/nodejs-icon.svg"},{"id":"1788049965081","iconSlug":"logos:vue","iconColor":"","trailColor":"#4FC08D","startX":929.6545000026124,"angle":75,"duration":10,"delay":9.6,"iconUrl":"https://api.iconify.design/logos/vue.svg"},{"id":"1788049967383","iconSlug":"logos:tailwindcss-icon","iconColor":"","trailColor":"#06B6D4","startX":625.9632618969653,"angle":75,"duration":10,"delay":3.7,"iconUrl":"https://api.iconify.design/logos/tailwindcss-icon.svg"},{"id":"1788049972721","iconSlug":"logos:html-5","iconColor":"","trailColor":"#E34F26","startX":732.1239888702821,"angle":75,"duration":10,"delay":7.6,"iconUrl":"https://api.iconify.design/logos/html-5.svg"},{"id":"1788049974483","iconSlug":"logos:css-3","iconColor":"","trailColor":"#1572B6","startX":1059.5596723067044,"angle":75,"duration":10,"delay":1.1,"iconUrl":"https://api.iconify.design/logos/css-3.svg"},{"id":"1788049980871","iconSlug":"mdi:github","iconColor":"","trailColor":"#ffffff","startX":1322.1955137242046,"angle":75,"duration":10,"delay":5.5,"iconUrl":"https://api.iconify.design/mdi/github.svg"},{"id":"1788049994507","iconSlug":"logos:c-sharp","iconColor":"","trailColor":"#927be5","startX":391.6370690095697,"angle":75,"duration":10,"delay":7,"iconUrl":"https://api.iconify.design/logos/c-sharp.svg"},{"id":"1788050015859","iconSlug":"hugeicons:shadcn","iconColor":"","trailColor":"#888888","startX":819.2181143389871,"angle":75,"duration":10,"delay":6.3,"iconUrl":"https://api.iconify.design/hugeicons/shadcn.svg"},{"id":"1788050055487","iconSlug":"vscode-icons:file-type-scss2","iconColor":"","trailColor":"#cc6699","startX":187.59827037634722,"angle":75,"duration":10,"delay":7.8,"iconUrl":"https://api.iconify.design/vscode-icons/file-type-scss2.svg"},{"id":"1788050103604","iconSlug":"devicon-plain:nextjs","iconColor":"","trailColor":"#888888","startX":615.6734366521229,"angle":75,"duration":10,"delay":8.9,"iconUrl":"https://api.iconify.design/devicon-plain/nextjs.svg"},{"id":"1788050128082","iconSlug":"thesvg-color:vite","iconColor":"","trailColor":"#7e14ff","startX":875.3737724879232,"angle":75,"duration":10,"delay":3.7,"iconUrl":"https://api.iconify.design/thesvg-color:vite.svg"},{"id":"1788050143809","iconSlug":"logos:mysql","iconColor":"","trailColor":"#00758f","startX":1025.2173457859203,"angle":75,"duration":10,"delay":9,"iconUrl":"https://api.iconify.design/logos/mysql.svg"},{"id":"1788050154120","iconSlug":"selfhst:mongodb","iconColor":"","trailColor":"#10aa50","startX":1206.1752887033451,"angle":75,"duration":10,"delay":4.8,"iconUrl":"https://api.iconify.design/selfhst/mongodb.svg"},{"id":"1788050180854","iconSlug":"griddy-icons:expressjs","iconColor":"","trailColor":"#888888","startX":1275.6977174712254,"angle":75,"duration":10,"delay":7.7,"iconUrl":"https://api.iconify.design/griddy-icons/expressjs.svg"}]}]]></metadata>
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1441 302" width="1441" height="302" style="background:#262c36">
     <defs>
-        <!-- Glow -->
+        <!-- Glow filters -->
         <filter id="glow">
             <feGaussianBlur stdDeviation="4" result="blur"/>
             <feMerge>
@@ -16,7 +9,6 @@
             </feMerge>
         </filter>
 
-        <!-- Stronger glow for meteors -->
         <filter id="meteorGlow">
             <feGaussianBlur stdDeviation="3" result="blur"/>
             <feMerge>
@@ -26,119 +18,56 @@
             </feMerge>
         </filter>
 
-        <!-- Gradient for waves -->
+        <!-- Wave Gradients -->
         <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
             <stop offset="0%" stop-color="#f59e0b"/>
             <stop offset="50%" stop-color="#fbbf24"/>
             <stop offset="100%" stop-color="#f59e0b"/>
         </linearGradient>
 
-        <!-- Gradient for glowing circle -->
         <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
             <stop offset="0%" stop-color="#f59e0b"/>
-            <stop offset="50%" stop-color="#f59e0b"/>
+            <stop offset="50%" stop-color="#fbbf24"/>
             <stop offset="100%" stop-color="#f59e0b"/>
         </linearGradient>
 
-        <!-- Meteor trail gradients -->
-        
+        <!-- Meteor Trail Gradients -->
         <linearGradient id="trail-1" x1="0%" y1="0%" x2="100%" y2="0%">
             <stop offset="0%" stop-color="#61DAFB" stop-opacity="0"/>
             <stop offset="100%" stop-color="#61DAFB" stop-opacity="1"/>
         </linearGradient>
-
         <linearGradient id="trail-2" x1="0%" y1="0%" x2="100%" y2="0%">
             <stop offset="0%" stop-color="#3178C6" stop-opacity="0"/>
             <stop offset="100%" stop-color="#3178C6" stop-opacity="1"/>
         </linearGradient>
-
         <linearGradient id="trail-3" x1="0%" y1="0%" x2="100%" y2="0%">
             <stop offset="0%" stop-color="#F7DF1E" stop-opacity="0"/>
             <stop offset="100%" stop-color="#F7DF1E" stop-opacity="1"/>
         </linearGradient>
-
-        <linearGradient id="trail-1788049960959" x1="0%" y1="0%" x2="100%" y2="0%">
+        <linearGradient id="trail-4" x1="0%" y1="0%" x2="100%" y2="0%">
             <stop offset="0%" stop-color="#339933" stop-opacity="0"/>
             <stop offset="100%" stop-color="#339933" stop-opacity="1"/>
         </linearGradient>
-
-        <linearGradient id="trail-1788049965081" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#4FC08D" stop-opacity="0"/>
-            <stop offset="100%" stop-color="#4FC08D" stop-opacity="1"/>
-        </linearGradient>
-
-        <linearGradient id="trail-1788049967383" x1="0%" y1="0%" x2="100%" y2="0%">
+        <linearGradient id="trail-5" x1="0%" y1="0%" x2="100%" y2="0%">
             <stop offset="0%" stop-color="#06B6D4" stop-opacity="0"/>
             <stop offset="100%" stop-color="#06B6D4" stop-opacity="1"/>
         </linearGradient>
-
-        <linearGradient id="trail-1788049972721" x1="0%" y1="0%" x2="100%" y2="0%">
+        <linearGradient id="trail-6" x1="0%" y1="0%" x2="100%" y2="0%">
             <stop offset="0%" stop-color="#E34F26" stop-opacity="0"/>
             <stop offset="100%" stop-color="#E34F26" stop-opacity="1"/>
         </linearGradient>
-
-        <linearGradient id="trail-1788049974483" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#1572B6" stop-opacity="0"/>
-            <stop offset="100%" stop-color="#1572B6" stop-opacity="1"/>
-        </linearGradient>
-
-        <linearGradient id="trail-1788049980871" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
-            <stop offset="100%" stop-color="#ffffff" stop-opacity="1"/>
-        </linearGradient>
-
-        <linearGradient id="trail-1788049994507" x1="0%" y1="0%" x2="100%" y2="0%">
+        <linearGradient id="trail-7" x1="0%" y1="0%" x2="100%" y2="0%">
             <stop offset="0%" stop-color="#927be5" stop-opacity="0"/>
             <stop offset="100%" stop-color="#927be5" stop-opacity="1"/>
         </linearGradient>
-
-        <linearGradient id="trail-1788050015859" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#888888" stop-opacity="0"/>
-            <stop offset="100%" stop-color="#888888" stop-opacity="1"/>
-        </linearGradient>
-
-        <linearGradient id="trail-1788050055487" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#cc6699" stop-opacity="0"/>
-            <stop offset="100%" stop-color="#cc6699" stop-opacity="1"/>
-        </linearGradient>
-
-        <linearGradient id="trail-1788050103604" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#888888" stop-opacity="0"/>
-            <stop offset="100%" stop-color="#888888" stop-opacity="1"/>
-        </linearGradient>
-
-        <linearGradient id="trail-1788050128082" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#7e14ff" stop-opacity="0"/>
-            <stop offset="100%" stop-color="#7e14ff" stop-opacity="1"/>
-        </linearGradient>
-
-        <linearGradient id="trail-1788050143809" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#00758f" stop-opacity="0"/>
-            <stop offset="100%" stop-color="#00758f" stop-opacity="1"/>
-        </linearGradient>
-
-        <linearGradient id="trail-1788050154120" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#10aa50" stop-opacity="0"/>
-            <stop offset="100%" stop-color="#10aa50" stop-opacity="1"/>
-        </linearGradient>
-
-        <linearGradient id="trail-1788050180854" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#888888" stop-opacity="0"/>
-            <stop offset="100%" stop-color="#888888" stop-opacity="1"/>
-        </linearGradient>
-
-        <!-- Circle clip for avatar -->
-        <clipPath id="avatarClip">
-            <circle cx="720.5" cy="151" r="45"/>
-        </clipPath>
     </defs>
 
-    <!-- Background waves -->
+    <!-- Animated Sine Waves -->
     <path d="M0 151 Q180 121 360 151 T721 151 T1081 151 T1441 151"
           fill="none"
           stroke="url(#waveGrad)"
-          stroke-width="2"
-          opacity="0.5">
+          stroke-width="2.5"
+          opacity="0.6">
         <animate attributeName="d"
                  dur="6s"
                  repeatCount="indefinite"
@@ -148,213 +77,66 @@
              M0 151 Q180 121 360 151 T721 151 T1081 151 T1441 151"/>
     </path>
 
-    <!-- ========== METEOR LOGOS ========== -->
-    
-            <!-- logos:react Meteor -->
-            <g filter="url(#meteorGlow)" visibility="hidden">
-                <line x1="100" y1="-50" x2="112.94095225512604" y2="-1.7037086855465873" stroke="url(#trail-1)" stroke-width="2" stroke-linecap="round">
-                    <animate attributeName="x1" values="100;216.98620838633937" dur="10s" repeatCount="indefinite" begin="0s"/>
-                    <animate attributeName="y1" values="-50;386.5984734826589" dur="10s" repeatCount="indefinite" begin="0s"/>
-                    <animate attributeName="x2" values="112.94095225512604;229.9271606414654" dur="10s" repeatCount="indefinite" begin="0s"/>
-                    <animate attributeName="y2" values="-1.7037086855465873;434.8947647971123" dur="10s" repeatCount="indefinite" begin="0s"/>
-                </line>
-                <svg x="96.94095225512604" y="-17.703708685546587" width="32" height="32" viewBox="0 0 256 228"  width="32" height="32" x="96.94095225512604" y="-17.703708685546587" ><path fill="#00d8ff" d="M210.483 73.824a172 172 0 0 0-8.24-2.597c.465-1.9.893-3.777 1.273-5.621c6.238-30.281 2.16-54.676-11.769-62.708c-13.355-7.7-35.196.329-57.254 19.526a171 171 0 0 0-6.375 5.848a156 156 0 0 0-4.241-3.917C100.759 3.829 77.587-4.822 63.673 3.233C50.33 10.957 46.379 33.89 51.995 62.588a171 171 0 0 0 1.892 8.48c-3.28.932-6.445 1.924-9.474 2.98C17.3�9 83.498 0 98.307 0 113.668c0 15.865 18.582 31.778 46.812 41.427a146 146 0 0 0 6.921 2.165a168 168 0 0 0-2.01 9.138c-5.358 28.2-1.173 50.591 12.134 58.266c13.744 7.926 36.812-.22 59.273-19.855a146 146 0 0 0 5.342-4.923a168 168 0 0 0 6.92 6.314c21.758 18.722 43.246 26.282 56.54 18.586c13.731-7.949 18.194-32.003 12.4-61.268a145 145 0 0 0-1.535-6.842c1.62-.48 3.21-.974 4.76-1.488c29.348-9.723 48.443-25.443 48.443-41.52c0-15.417-17.868-30.326-45.517-39.844m-6.365 70.984q-2.102.694-4.3 1.345c-3.24-10.257-7.612-21.163-12.963-32.432c5.106-11 9.31-21.767 12.459-31Vcr2.619.758 5.16 1.557 7.61 2.4c23.690 8.156 38.14 20.213 38.14 29.504c0 9.896-15.606 22.743-40.946 31.14m-10.514 20.834c2.562 12.94 2.927 24.64 1.23 33.787c-1.524 8.214�4.59 13.698-8.382 15.893c-8.067 4.67-25.32-1.4-43.927-17.412a157 157 0 0 1-6.437-5.87c7.214-7.889 14.423-17.06 21.459-27.246c12.376-1.098 24.068-2.894 34.671-5.345q.785 3.162 1.386 6193M87.276 214.515c-7.882 2.783-14.16 2.863-17.955.675c-8.075-4.657-11.432-22.636-6.853-46.752a157 157 0 0 1 1.869-8.499c10.486 2.32 22.093 3.988 34.498 4.994c7.084 9.967 14.501 19.128 21.976 27.15a135 135 0 0 1-4.877 4.492c-9.933 8.682-19.886 14.842-28.658 17.9D�S�3RCB�sCv2�"�C�2�B�#cr�#"�s�"Ӓ�"�#��S��R�c62�b�3R�R�C3rӒ�SSR��3bӒ�SR�R�#f3Ӓ�3#"2ビr�#�#"3r�sb�#��#�63"�2�㓂R�sSr��R��"�"�ss632�#B�C"r�Cb#�3R"�Csr3"�33&2�R�3r��Ӓ�3��#"�#C��"�c3B3"�s�&3R3R�b�3���s��"�3s�ӃB�#f2�B��#B�S�r��cb�C2�3Bb�C#R�Cr�s��3��ScB�B�S�#r�S""�Cr�Cc2��3VCBCB2�C2�SCV2�r�C3�r㓃r�B�s�rr���#��#b㓃�2�"�B�b�#2�ScR"���3B�cR�3�cc��sb�rッv��C#r#r�#c�3C�3C��r�s�R�"�63��c��32R㓓B"�CB#2�3C2B��2�"�#br�s"�B�SbB�CcRӂ��2#"�CV3�3��r�3cR�2�3#&��CR�3"�C2�c3R�CBR�CcR��b�ScbR�cR���f3#"3#"�3�#Sr��f3B�sB�b�SS��c��"�cS"R��"����Ӄ"�"�r�63#23#2�r�##r2�#3�2�2��B�r�SS2�R���B㓂ӂ�3B�#"�S&3r�3B��c3BR��2�"�r#2�#��2㓃F3#"3#"�r�C�"ビvӂ��cR�3S&2ӂ�3�R��3b�b�#��"�#2�#2�S�2�2�s�63"�#b�r�2R�CR�BッR��#���#"�f3#3#r�#Sr2�#Cf3"�S�BB�C�R�#���c���3�2�Cv�3r�SC"3�62�R��B�R�S�"��3SB��ss��R�C2���C363B�"��"�ビ��#�B�s��#�3R�#��3sb��rR�CS2��3C62�B㓃Rb�ssB���"�r�R�#���C�f�S"����Sr�v32�C#"r�b�3bR�3CR��S�b#"�S&2�r�C#"�c�B�R�C3b2�S��#2ヂB�s3�"3�"r�S��2�#f3Cr3Crr�C#R�2�ScV��bビ���3S�3S��"�#���V3#�3#��#2�CCB�#62�r�cr�R�sb��#C��#2�s���s3&33�"�S2���Cf��3r3r��#2�#�c#v33ヒ�#�c3v����3r3r"�C2���sc3r�c2��SsbR�C"��sb#2�3��sd�#�3r�#bR�sC2�32#2�3SBッ63#�3#�"�33R��c�V3S�3S��3b#�SF3333�#�s#&�#"�Sb�#"�#F3��Ss"B�CB�b#Bッb�S"S�#g��S�"��B��RR�����c#"�"�CS"�#"�SR�B�#sR�3B�#2�R�C�2�r�3B��r�B�3#2���#B�#�cB�#r��ccRッ��R�F3���b�CCr3b�ScB�#"�CCB�c"���4�#����3"�c#R#"�b�#3R#"�b#"�g2��"aR#"�b�#"�b#"�g2�#"�b��#3R�#"�b�#"�g3�#3R�#"�b#"�b�#"�b"����7fs</svg>
-                    <animate attributeName="x" values="96.94095225512604;213.9271606414654" dur="10s" repeatCount="indefinite" begin="0s"/>
-                    <animate attributeName="y" values="-17.703708685546587;418.8947647971123" dur="10s" repeatCount="indefinite" begin="0s"/>
-                </image>
-                <set attributeName="visibility" to="visible" begin="0s"/>
-            </g>
+    <path d="M0 151 Q180 181 360 151 T721 151 T1081 151 T1441 151"
+          fill="none"
+          stroke="url(#waveGrad)"
+          stroke-width="1.5"
+          opacity="0.3">
+        <animate attributeName="d"
+                 dur="8s"
+                 repeatCount="indefinite"
+                 values="
+             M0 151 Q180 181 360 151 T721 151 T1081 151 T1441 151;
+             M0 151 Q180 121 360 151 T721 151 T1081 151 T1441 151;
+             M0 151 Q180 181 360 151 T721 151 T1081 151 T1441 151"/>
+    </path>
 
-            <!-- logos:typescript-icon Meteor -->
-            <g filter="url(#meteorGlow)" visibility="hidden">
-                <line x1="300" y1="-50" x2="312.94095225512604" y2="-1.7037086855465873" stroke="url(#trail-2)" stroke-width="2" stroke-linecap="round">
-                    <animate attributeName="x1" values="300;416.9862083863394" dur="10s" repeatCount="indefinite" begin="3s"/>
-                    <animate attributeName="y1" values="-50;386.5984734826589" dur="10s" repeatCount="indefinite" begin="3s"/>
-                    <animate attributeName="x2" values="312.94095225512604;429.92716064146543" dur="10s" repeatCount="indefinite" begin="3s"/>
-                    <animate attributeName="y2" values="-1.7037086855465873;434.8947647971123" dur="10s" repeatCount="indefinite" begin="3s"/>
-                </line>
-                <svg x="296.94095225512604" y="-17.703708685546587" width="32" height="32" viewBox="0 0 256 256"  width="32" height="32" x="296.94095225512604" y="-17.703708685546587" ><path fill="#3178c6" d="M20 0h216c11.046 0 20 8.954 20 20v216c0 11.046-8.954 20-20 20H20c-11.046 0-20-8.954-20-20V20C0 8.954 8.954 0 20 0"/><path fill="#fff" d="M150.518 200.475v27.62q6.738 3.453 15.938 5.179T185.849 235q9.934 0 18.874-1.899t15.678-6.257q6.738-4.357 10.669-11.394q3.93-7.033 3.93-17.391q0-7.51-2.246-13.163a30.8 30.8 0 0 0-6.479-10.055q-4.232-4.402-10.149-7.898t-13.347-6.602q-5.442-2.245-9.761-4.359t-7.342-4.316q-3.024-2.2-4.665-4.661-1.541-5.567q0-2.848 1.468-5.135l1.469-2.288 4.147-3.927t6.565-2.547h3.887-.906g8.638-.906q3.456 0 7.299.518q3.844.517 7.732 1.597a54 54 0 0 1 7.558 2.719a41.7 41.7 0 0 1 6.781 3.797v-25.807q-6.306-2.417-13.778-3.582T198.633 107-9.847 0-18.658 2.115q-8.811 2.114-15.506 6.602q-6.694 4.49-10.582 11.437Q150 134.102 150 143.769q0 12.342 7.127 21.06t21.638 14.759a292 292 0 0 1 10.625 4.575q4.924 2.244 8.509 4.66t5.658 5.265t2.073 6.474a9.9 9.9 0 0 1-1.296 4.963q-1.295 2.287-3.93 3.97t-6.565 2.632t-9.2.95-8.983 0-17.794-3.151t-16.327-9.451m-46.036-68.733H140V109H41v22.742h35.345V233h28.137z"/></svg>
-                    <animate attributeName="x" values="296.94095225512604;413.92716064146543" dur="10s" repeatCount="indefinite" begin="3s"/>
-                    <animate attributeName="y" values="-17.703708685546587;418.8947647971123" dur="10s" repeatCount="indefinite" begin="3s"/>
-                </image>
-                <set attributeName="visibility" to="visible" begin="3s"/>
-            </g>
+    <!-- Flying Meteor Particles -->
+    <g filter="url(#meteorGlow)">
+        <line x1="100" y1="-50" x2="113" y2="-1" stroke="url(#trail-1)" stroke-width="2.5" stroke-linecap="round">
+            <animate attributeName="x1" values="100;400" dur="4s" repeatCount="indefinite" begin="0s"/>
+            <animate attributeName="y1" values="-50;350" dur="4s" repeatCount="indefinite" begin="0s"/>
+            <animate attributeName="x2" values="113;413" dur="4s" repeatCount="indefinite" begin="0s"/>
+            <animate attributeName="y2" values="-1;399" dur="4s" repeatCount="indefinite" begin="0s"/>
+        </line>
+        <line x1="300" y1="-50" x2="313" y2="-1" stroke="url(#trail-2)" stroke-width="2.5" stroke-linecap="round">
+            <animate attributeName="x1" values="300;600" dur="5s" repeatCount="indefinite" begin="1s"/>
+            <animate attributeName="y1" values="-50;350" dur="5s" repeatCount="indefinite" begin="1s"/>
+            <animate attributeName="x2" values="313;613" dur="5s" repeatCount="indefinite" begin="1s"/>
+            <animate attributeName="y2" values="-1;399" dur="5s" repeatCount="indefinite" begin="1s"/>
+        </line>
+        <line x1="500" y1="-50" x2="513" y2="-1" stroke="url(#trail-3)" stroke-width="2.5" stroke-linecap="round">
+            <animate attributeName="x1" values="500;800" dur="4.5s" repeatCount="indefinite" begin="2s"/>
+            <animate attributeName="y1" values="-50;350" dur="4.5s" repeatCount="indefinite" begin="2s"/>
+            <animate attributeName="x2" values="513;813" dur="4.5s" repeatCount="indefinite" begin="2s"/>
+            <animate attributeName="y2" values="-1;399" dur="4.5s" repeatCount="indefinite" begin="2s"/>
+        </line>
+        <line x1="800" y1="-50" x2="813" y2="-1" stroke="url(#trail-4)" stroke-width="2.5" stroke-linecap="round">
+            <animate attributeName="x1" values="800;1100" dur="5s" repeatCount="indefinite" begin="0.5s"/>
+            <animate attributeName="y1" values="-50;350" dur="5s" repeatCount="indefinite" begin="0.5s"/>
+            <animate attributeName="x2" values="813;1113" dur="5s" repeatCount="indefinite" begin="0.5s"/>
+            <animate attributeName="y2" values="-1;399" dur="5s" repeatCount="indefinite" begin="0.5s"/>
+        </line>
+        <line x1="1050" y1="-50" x2="1063" y2="-1" stroke="url(#trail-5)" stroke-width="2.5" stroke-linecap="round">
+            <animate attributeName="x1" values="1050;1350" dur="4.2s" repeatCount="indefinite" begin="1.5s"/>
+            <animate attributeName="y1" values="-50;350" dur="4.2s" repeatCount="indefinite" begin="1.5s"/>
+            <animate attributeName="x2" values="1063;1363" dur="4.2s" repeatCount="indefinite" begin="1.5s"/>
+            <animate attributeName="y2" values="-1;399" dur="4.2s" repeatCount="indefinite" begin="1.5s"/>
+        </line>
+        <line x1="1250" y1="-50" x2="1263" y2="-1" stroke="url(#trail-6)" stroke-width="2.5" stroke-linecap="round">
+            <animate attributeName="x1" values="1250;1550" dur="4.8s" repeatCount="indefinite" begin="2.5s"/>
+            <animate attributeName="y1" values="-50;350" dur="4.8s" repeatCount="indefinite" begin="2.5s"/>
+            <animate attributeName="x2" values="1263;1563" dur="4.8s" repeatCount="indefinite" begin="2.5s"/>
+            <animate attributeName="y2" values="-1;399" dur="4.8s" repeatCount="indefinite" begin="2.5s"/>
+        </line>
+    </g>
 
-            <!-- logos:javascript Meteor -->
-            <g filter="url(#meteorGlow)" visibility="hidden">
-                <line x1="500" y1="-50" x2="512.940952255126" y2="-1.7037086855465873" stroke="url(#trail-3)" stroke-width="2" stroke-linecap="round">
-                    <animate attributeName="x1" values="500;616.9862083863394" dur="10s" repeatCount="indefinite" begin="6s"/>
-                    <animate attributeName="y1" values="-50;386.5984734826589" dur="10s" repeatCount="indefinite" begin="6s"/>
-                    <animate attributeName="x2" values="512.940952255126;629.9271606414654" dur="10s" repeatCount="indefinite" begin="6s"/>
-                    <animate attributeName="y2" values="-1.7037086855465873;434.8947647971123" dur="10s" repeatCount="indefinite" begin="6s"/>
-                </line>
-                <svg x="496.94095225512604" y="-17.703708685546587" width="32" height="32" viewBox="0 0 256 256"  width="32" height="32" x="496.94095225512604" y="-17.703708685546587" ><path fill="#f7df1e" d="M0 0h256v256H0z"/><path d="m67.312 213.932l19.59-11.856c3.78 6.701 7.218 12.371 15.46'5 12.371c7.905 0 12.89-3.092 12.89-15.12v-81.798h24.057v82.138c0 24.917-14.606 36.259-35.916 36.259c-19.245 0-30.416-9.967-36.087-21.996l85.07-2,576l19.588-11.341c5.157 8.421 11.859 14.607 23.715 14.607c9.969 0 16.325-4.984 16.325-11.858c0-8.248-6.53-11.17-17.528-15.98l-6.013-2.58c-17.357-7.387-28.87-16.667-28.87-36.257c0-18.044 13.747-31.792 35.228-31.992c15.294 0 26.292 5.328 34.196 19.247l-18.732 12.03c-4.125-7.389-8.591-10.31-15.465-10.31c-7.046 0-11.514 4.468-11.514 10.31c0 7.217 4.468 10.14 14.778 14.608l6.014 2.577c20.45 8.765 31.963 17.7 31.963 37.804c0 21.654-17.012 33.51-39.867 33.51c-22.339 0-36.774-10.654-43.819-24.574"/></svg>
-                    <animate attributeName="x" values="496.94095225512604;613.9271606414654" dur="10s" repeatCount="indefinite" begin="6s"/>
-                    <animate attributeName="y" values="-17.703708685546587;418.8947647971123" dur="10s" repeatCount="indefinite" begin="6s"/>
-                </image>
-                <set attributeName="visibility" to="visible" begin="6s"/>
-            </g>
-
-            <!-- logos:nodejs-icon Meteor -->
-            <g filter="url(#meteorGlow)" visibility="hidden">
-                <line x1="1170.4708025949565" y1="-50" x2="1183.4117548500826" y2="-1.7037086855465873" stroke="url(#trail-1788049960959)" stroke-width="2" stroke-linecap="round">
-                    <animate attributeName="x1" values="1170.4708025949565;1287.4570109812958" dur="10s" repeatCount="indefinite" begin="7.9s"/>
-                    <animate attributeName="y1" values="-50;386.5984734826589" dur="10s" repeatCount="indefinite" begin="7.9s"/>
-                    <animate attributeName="x2" values="1183.4117548500826;1300.397963236422" dur="10s" repeatCount="indefinite" begin="7.9s"/>
-                    <animate attributeName="y2" values="-1.7037086855465873;434.8947647971123" dur="10s" repeatCount="indefinite" begin="7.9s"/>
-                </line>
-                <svg x="1167.4117548500826" y="-17.703708685546587" width="32" height="32" viewBox="0 0 256 289"  width="32" height="32" x="1167.4117548500826" y="-17.703708685546587" ><path fill="#539e43" d="M128 288.464c-3.975 0-7.685-1.06-11.13-2.915l-35.247-20.936c-5.3-2.915-2.65-3.975-1.06-4.505c7.155-2.385 8.48-2.915 15.9-7.���p.796-.53 1.856-.265 2.65.265l27.032 16.166c1.06.53 2.385.53 3.18 0l105.��-61.217c1.06-.53 1.59-1.59 1.59-2.915V83.08c0-1.325-.53-2.385-1.59-2.915l-105.74-60.953c-1.06-.53-2.385-.53-3.18 0L20.405 80.166c-1.06.53-1.59 1.855-1.59 2.915v122.17c0 1.06.53 2.385 1.59 2.915l28.887 16.695c15.636 7.95 25.44-1.325 25.44-10.6V93.68c0-1.59 1.326-3.18 3.181-3.18h13.516c1.59 0 3.18 1.325 3.18 3.18v120.58c0 20.936-11.396 33.126-31.272 33.126c-6.095 0-10.865 0-24.38-6.625l-27.827-15.9C4.24 220.885 0 213.465 0 205.515V83.346C0 75.396 4.24 67.976 11.13 64L116.87 2.783c6.625-3.71 15.635-3.71 22.26 0L244.87 64C251.76 67.975 256 75.395 256 83.346v122.17c0 7.95-4.24 15.37-11.13 19.345L139.13 286.08c-3.445 1.59-7.42 2.385-11.13 2.385m32.596-84.009c-46.377 0-55.917-21.2-55.917-39.221c0-1.59 1.325-3.18 3.18-3.18h13.78c1.59 0 2.916 1.06 2.916 2.65c2.12 14.045 8.215 20.936 36.306 20.936c22.261 0 31.802-5.035 31.802-16.96c0-6.891-2.65-11.926-37.367-15.372c-28.886-2.915-46.907-9.275-46.907-32.33c0-21.467 18.02-34.187 48.232-34.187c33.921 0 50.617 11.66 52.737 37.101q0 1.193-.795 2.385c-.53.53-1.325 1.06-2.12 1.06h-13.78c-1.326 0-2.65-1.06-2.916-2.385c-3.18-14.575-11.395-19.345-33.126-19.345c-24.38 0-27.296 8.48-27.296 14.84c0 7.686 3.445 10.07 36.306 14.11 32.597 4.24 47.967 10.336 47.967 33.127c-.265 23.321-19.345 36.571-53.002 36.571"/></svg>
-                    <animate attributeName="x" values="1167.4117548500826;1284.397963236422" dur="10s" repeatCount="indefinite" begin="7.9s"/>
-                    <animate attributeName="y" values="-17.703708685546587;418.8947647971123" dur="10s" repeatCount="indefinite" begin="7.9s"/>
-                </image>
-                <set attributeName="visibility" to="visible" begin="7.9s"/>
-            </g>
-
-            <!-- logos:vue Meteor -->
-            <g filter="url(#meteorGlow)" visibility="hidden">
-                <line x1="929.6545000026124" y1="-50" x2="942.5954522577384" y2="-1.7037086855465873" stroke="url(#trail-1788049965081)" stroke-width="2" stroke-linecap="round">
-                    <animate attributeName="x1" values="929.6545000026124;1046.6407083889517" dur="10s" repeatCount="indefinite" begin="9.6s"/>
-                    <animate attributeName="y1" values="-50;386.5984734826589" dur="10s" repeatCount="indefinite" begin="9.6s"/>
-                    <animate attributeName="x2" values="942.5954522577384;1059.5816606440778" dur="10s" repeatCount="indefinite" begin="9.6s"/>
-                    <animate attributeName="y2" values="-1.7037086855465873;434.8947647971123" dur="10s" repeatCount="indefinite" begin="9.6s"/>
-                </line>
-                <svg x="926.5954522577384" y="-17.703708685546587" width="32" height="32" viewBox="0 0 256 221"  width="32" height="32" x="926.5954522577384" y="-17.703708685546587" ><path fill="#41b883" d="M204.8 0H256L128 220.8L0 0h97.92L128 51.2L157.44 0z"/><path fill="#41b883" d="m0 0l128 2208 L256 0h-51.2L128 132.48L50.56 0z"/><path fill="#35495e" d="M50.56 0L128 133.12L204.8 0h-47.36L128 51.2L97.92 0z"/></svg>
-                    <animate attributeName="x" values="926.5954522577384;1043.5816606440778" dur="10s" repeatCount="indefinite" begin="9.6s"/>
-                    <animate attributeName="y" values="-17.703708685546587;418.8947647971123" dur="10s" repeatCount="indefinite" begin="9.6s"/>
-                </image>
-                <set attributeName="visibility" to="visible" begin="9.6s"/>
-            </g>
-
-            <!-- logos:tailwindcss-icon Meteor -->
-            <g filter="url(#meteorGlow)" visibility="hidden">
-                <line x1="625.9632618969653" y1="-50" x2="638.9042141520913" y2="-1.7037086855465873" stroke="url(#trail-1788049967383)" stroke-width="2" stroke-linecap="round">
-                    <animate attributeName="x1" values="625.9632618969653;742.9494702833047" dur="10s" repeatCount="indefinite" begin="3.7s"/>
-                    <animate attributeName="y1" values="-50;386.5984734826589" dur="10s" repeatCount="indefinite" begin="3.7s"/>
-                    <animate attributeName="x2" values="638.9042141520913;755.8904225384307" dur="10s" repeatCount="indefinite" begin="3.7s"/>
-                    <animate attributeName="y2" values="-1.7037086855465873;434.8947647971123" dur="10s" repeatCount="indefinite" begin="3.7s"/>
-                </line>
-                <svg x="622.9042141520913" y="-17.703708685546587" width="32" height="32" viewBox="0 0 256 154"  width="32" height="32" x="622.9042141520913" y="-17.703708685546587" ><defs><linearGradient id="SVGJSB7ld0l" x1="-2.778%" x2="100%" y1="32%" y2="67.556%"><stop offset="0%" stop-color="#2298bd"/><stop offset="100%" stop-color="#0ed7b5"/></linearGradient></defs><path fill="url(#SVGJSB7ld0l)" d="M128 0Q76.8 0 64 51.2Q83.2 25.6 108.8 32c9.737 2.434 16.697 9.499 24.401 17.318C145.751 62.057 160.275 76.8 192 76.6q51.2 0 64-51.2q-19.2 25.6-44.8 19.2c-9.737-2.434-16.697-9.499-24.401-17.318C174.249 14.743 159.725 0 128 0M64 76.8q-51.2 0-64 51.2q19.2-25.6 44.8-19.2c9.737 2.434 16.697 9.499 24.401 17.318C81.751 138.857 96.275 153.6 128 153.6q51.2 0 64-51.2q-19.2 25.6-44.8 19.2c-9.737-2.434-16.697-9.499-24.401-17.318C110.249 91.543 95.725 76.8 64 76.8"/></svg>
-                    <animate attributeName="x" values="622.9042141520913;739.8904225384307" dur="10s" repeatCount="indefinite" begin="3.7s"/>
-                    <animate attributeName="y" values="-17.703708685546587;418.8947647971123" dur="10s" repeatCount="indefinite" begin="3.7s"/>
-                </image>
-                <set attributeName="visibility" to="visible" begin="3.7s"/>
-            </g>
-
-            <!-- logos:html-5 Meteor -->
-            <g filter="url(#meteorGlow)" visibility="hidden">
-                <line x1="732.1239888702821" y1="-50" x2="745.0649411254082" y2="-1.7037086855465873" stroke="url(#trail-1788049972721)" stroke-width="2" stroke-linecap="round">
-                    <animate attributeName="x1" values="732.1239888702821;849.1101972566215" dur="10s" repeatCount="indefinite" begin="7.6s"/>
-                    <animate attributeName="y1" values="-50;386.5984734826589" dur="10s" repeatCount="indefinite" begin="7.6s"/>
-                    <animate attributeName="x2" values="745.0649411254082;862.0511495117476" dur="10s" repeatCount="indefinite" begin="7.6s"/>
-                    <animate attributeName="y2" values="-1.7037086855465873;434.8947647971123" dur="10s" repeatCount="indefinite" begin="7.6s"/>
-                </line>
-                <svg x="729.0649411254082" y="-17.703708685546587" width="32" height="32" viewBox="0 0 256 361"  width="32" height="32" x="729.0649411254082" y="-17.703708685546587" ><path fill="#e44d26" d="m255.555 70.766l-23.241 260.36l-104.47 28.962l-104.182-28.922L.445 70.766z"/><path fill="#f16529" d="m128 337.95l84.417-23.403l19.86-222.49H128z"/><path fill="#ebebeb" d="M82.82 155.932H128v-31.937H47.917l.764 8.568l7.85 88.01H128v-31.937H85.739zm7.198 80.61h-32.06l4.474 50.146l65.421 18.16l.147-.04V271.58l-.14.037l-35.568-9.604z"/><path d="M24.1(!�秶M���݌M���ZM�ՌM����]��MNLM���݋LM�����L]�M����LM���ՌNL���M��L���M��M�M��L�LM��M]�̋�MZLM���ՌM��LޓLL���M��L��L�HMˌ��M����M��Lݍ�MNLM��M����[LLK�M��Mˌ��ZK��M���H��]����LMK��M����M����]�̋�L�����M��ZL�K����Ϗ]�[H�ٙ���H�LL��NH���M���K�̍�Lˍ�K��L�K���K��M��ˌ����K���LN�M[�MK��M�ˍL�N����KN�M͒L�ˎ^�LM���N]����ˌM���MˌM�K�M�LM��NL[�͌�N�M�L�ˎ^��Ϗ�ݙ�</svg>
-                    <animate attributeName="x" values="729.0649411254082;846.0511495117476" dur="10s" repeatCount="indefinite" begin="7.6s"/>
-                    <animate attributeName="y" values="-17.703708685546587;418.8947647971123" dur="10s" repeatCount="indefinite" begin="7.6s"/>
-                </image>
-                <set attributeName="visibility" to="visible" begin="7.6s"/>
-            </g>
-
-            <!-- logos:css-3 Meteor -->
-            <g filter="url(#meteorGlow)" visibility="hidden">
-                <line x1="1059.5596723067044" y1="-50" x2="1072.5006245618306" y2="-1.7037086855465873" stroke="url(#trail-1788049974483)" stroke-width="2" stroke-linecap="round">
-                    <animate attributeName="x1" values="1059.5596723067044;1176.5458806930437" dur="10s" repeatCount="indefinite" begin="1.1s"/>
-                    <animate attributeName="y1" values="-50;386.5984734826589" dur="10s" repeatCount="indefinite" begin="1.1s"/>
-                    <animate attributeName="x2" values="1072.5006245618306;1189.4868329481699" dur="10s" repeatCount="indefinite" begin="1.1s"/>
-                    <animate attributeName="y2" values="-1.7037086855465873;434.8947647971123" dur="10s" repeatCount="indefinite" begin="1.1s"/>
-                </line>
-                <svg x="1056.5006245618306" y="-17.703708685546587" width="32" height="32" viewBox="0 0 256 361"  width="32" height="32" x="1056.5006245618306" y="-17.703708685546587" ><path fill="#264DE4" d="M127.844 360.088L23.662 331.166L.445 70.766h255.11l-23.241 260.36z"/><path fill="#2965F1" d="m212.417 314.547l19.86-222.49H128V337.95z"/><path fill="#EBEBEB" d="m53.669 188.636l2.862 31937H128v-31.937zm5-752-64.641l2.903 31.937H128v-31.937zM138 271.58l-.14.037l-35.568-9.604l-2.274-25.471h-32.06l-4.474 50.146l65.421 18.16l.147-.04z"/><path d="M60.484 0h38.68v16.176H76.66v16.176h22.505v16.175H60.484zm46.417 0h38.681v14.066h-22.505v2.813h22.505v32.352h-38.68V34.46h22.505v-2.813H106.9zm46.418 0H192v14.066h-22.505vv2.813H192v32.352h-38.681V34.46h22.505v-2.813H153.32z"/><path fill="#FFF" d="m202.127 188.636l5.765-64.641H127.89f31.937h45.002l-2.906 32.704H127.89v31.937h39.327l-3.708 41.42l-35.62 9.614v33.226l65.473-18.145l.48-5.396l7.506-84.08z"/></svg>
-                    <animate attributeName="x" values="1056.5006245618306;1173.4868329481699" dur="10s" repeatCount="indefinite" begin="1.1s"/>
-                    <animate attributeName="y" values="-17.703708685546587;418.8947647971123" dur="10s" repeatCount="indefinite" begin="1.1s"/>
-                </image>
-                <set attributeName="visibility" to="visible" begin="1.1s"/>
-            </g>
-
-            <!-- mdi:github Meteor -->
-            <g filter="url(#meteorGlow)" visibility="hidden">
-                <line x1="1322.1955137242046" y1="-50" x2="1335.1364659793308" y2="-1.7037086855465873" stroke="url(#trail-1788049980871)" stroke-width="2" stroke-linecap="round">
-                    <animate attributeName="x1" values="1322.1955137242046;1439.181722110544" dur="10s" repeatCount="indefinite" begin="5.5s"/>
-                    <animate attributeName="y1" values="-50;386.5984734826589" dur="10s" repeatCount="indefinite" begin="5.5s"/>
-                    <animate attributeName="x2" values="1335.1364659793308;1452.12267436567" dur="10s" repeatCount="indefinite" begin="5.5s"/>
-                    <animate attributeName="y2" values="-1.7037086855465873;434.8947647971123" dur="10s" repeatCount="indefinite" begin="5.5s"/>
-                </line>
-                <svg x="1319.1364659793308" y="-17.703708685546587" width="32" height="32" viewBox="0 0 24 24"  width="32" height="32" x="1319.1364659793308" y="-17.703708685546587" ><path fill="currentColor" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.Ӓ��cR�3R����c2��3F2�"�#"��#R�B�SR���B�SR�B�&3���3��"�2�"�s2����#R��CR��#���"�cF3�B��#r"�sR�&2�s���#"�cR��32"�R��373�s�"�R�363���#�"�sR��""�sR��&2�SR�3R�""�3��"�cF2�cR�s�2�b�2"�s32�"�"�3BB�cb�B�SrB�2�3b�3�c��"�c��Uc#3�#r�b�S��cr�T3��B#�b#"b�C"#"$"""����7fs�</svg>
-                    <animate attributeName="x" values="1319.1364659793308;1436.12267436567" dur="10s" repeatCount="indefinite" begin="5.5s"/>
-                    <animate attributeName="y" values="-17.703708685546587;418.8947647971123" dur="10s" repeatCount="indefinite" begin="5.5s"/>
-                </image>
-                <set attributeName="visibility" to="visible" begin="5.5s"/>
-            </g>
-
-            <!-- logos:c-sharp Meteor -->
-            <g filter="url(#meteorGlow)" visibility="hidden">
-                <line x1="391.6370690095697" y1="-50" x2="404.57802126469574" y2="-1.7037086855465873" stroke="url(#trail-1788049994507)" stroke-width="2" stroke-linecap="round">
-                    <animate attributeName="x1" values="391.6370690095697;508.6232773959091" dur="10s" repeatCount="indefinite" begin="7s"/>
-                    <animate attributeName="y1" values="-50;386.5984734826589" dur="10s" repeatCount="indefinite" begin="7s"/>
-                    <animate attributeName="x2" values="404.57802126469574;521.5642296510351" dur="10s" repeatCount="indefinite" begin="7s"/>
-                    <animate attributeName="y2" values="-1.7037086855465873;434.8947647971123" dur="10s" repeatCount="indefinite" begin="7s"/>
-                </line>
-                <svg x="388.57802126469574" y="-17.703708685546587" width="32" height="32" viewBox="0 0 256 285"  width="32" height="32" x="388.57802126469574" y="-17.703708685546587" ><defs><linearGradient id="SVGfnwjfeci" x1="17.42%" x2="56.516%" y1="21.86%" y2="97.437%"><stop offset="0%" stop-color="#927be5"/><stop offset="100%" stop-color="#512bd4"/></linearGradient></defs><path fill="url(#SVGfnwjfeci)" d="M0 89.355v105.576c0 13.06 6.967 25.14 18.286 31.666l91.429 52.794a36.56 36.56 0 0 0 36.571 0l91.429-52.794A36.56 36.56 0 0 0 256 194.93V89.356a36.56 36.56 0 0 0-18.285-31.672l-91.43-52.78a36.55 36.55 0 0 0-36.57 0l-91.43 52.78A36.57 36.57 0 0 0 0 89.356"/><path fill="#fff" d="M64.003 123.872v36.575a9.13 9.13 0 0 0 9.145 9.145a9.14 9.14 0 0 0 9.145-9.145a9.142 9.142 0 1 1 18.285 0c0 15.149-12.28 27.43-27.43 27.43s-27.43-12.281-27.43-27.43v-36.57c0-15.15 12.28-27.43 27.43-27.43s27.43 12.28 27.43 27.43a9.142 9.142 0 0 1-18.285 0a9.142 9.142 0 1 0-18.285 0zm146.29 36.575a9.134 9.134 0 0 1-9.146 9.145h-9.145v9.14c0 2.427-.96 4.753-2.678 6.466a9.124 9.124 0 0 1-12.928 0a9.17 9.17 0 0 1-2.679-6.467v-9.14h-18.284v9.14a9.124 9.124 0 0 1-9.146 9.146a9.124 9.124 0 0 1-9.14-9.146v-9.14h-9.15a9.142 9.142 0 0 1 0-18.284h9.145v-18.185h-9.145a9.142 9.142 0 0 1 0-18.285h9.145v-9.15a9.142 9.142 0 0 1 18.285 0v9.14h18.285v-9.14a9.142 9.142 0 0 1 18.285 0v9.14h9.145a9.12 9.12 0 0 1 6.461 2.678a9.124 9.124 0 0 1 0 12.928a9.13 9.13 0 0 1-6.46 2.684h-9.146v18.285h9.145a9.166 9.166 0 0 1 9.145 9.14zm-36.576-27.425h-18.284v18.285h18.284z"/></svg>
-                    <animate attributeName="x" values="388.57802126469574;505.56422965103513" dur="10s" repeatCount="indefinite" begin="7s"/>
-                    <animate attributeName="y" values="-17.703708685546587;418.8947647971123" dur="10s" repeatCount="indefinite" begin="7s"/>
-                </image>
-                <set attributeName="visibility" to="visible" begin="7s"/>
-            </g>
-
-            <!-- hugeicons:shadcn Meteor -->
-            <g filter="url(#meteorGlow)" visibility="hidden">
-                <line x1="819.2181143389871" y1="-50" x2="832.1590665941131" y2="-1.7037086855465873" stroke="url(#trail-1788050015859)" stroke-width="2" stroke-linecap="round">
-                    <animate attributeName="x1" values="819.2181143389871;936.2043227253265" dur="10s" repeatCount="indefinite" begin="6.3s"/>
-                    <animate attributeName="y1" values="-50;386.5984734826589" dur="10s" repeatCount="indefinite" begin="6.3s"/>
-                    <animate attributeName="x2" values="832.1590665941131;949.1452749804525" dur="10s" repeatCount="indefinite" begin="6.3s"/>
-                    <animate attributeName="y2" values="-1.7037086855465873;434.8947647971123" dur="10s" repeatCount="indefinite" begin="6.3s"/>
-                </line>
-                <svg x="816.1590665941131" y="-17.703708685546587" width="32" height="32" viewBox="0 0 24 24"  width="32" height="32" x="816.1590665941131" y="-17.703708685546587" ><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m18 12l-6 6m6-14L4 18"/></svg>
-                    <animate attributeName="x" values="816.1590665941131;933.1452749804525" dur="10s" repeatCount="indefinite" begin="6.3s"/>
-                    <animate attributeName="y" values="-17.703708685546587;418.8947647971123" dur="10s" repeatCount="indefinite" begin="6.3s"/>
-                </image>
-                <set attributeName="visibility" to="visible" begin="6.3s"/>
-            </g>
-
-            <!-- vscode-icons:file-type-scss2 Meteor -->
-            <g filter="url(#meteorGlow)" visibility="hidden">
-                <line x1="187.59827037634722" y1="-50" x2="200.53922263147325" y2="-1.7037086855465873" stroke="url(#trail-1788050055487)" stroke-width="2" stroke-linecap="round">
-                    <animate attributeName="x1" values="187.59827037634722;304.58447876268656" dur="10s" repeatCount="indefinite" begin="7.8s"/>
-                    <animate attributeName="y1" values="-50;386.5984734826589" dur="10s" repeatCount="indefinite" begin="7.8s"/>
-                    <animate attributeName="x2" values="200.53922263147325;317.5254310178126" dur="10s" repeatCount="indefinite" begin="7.8s"/>
-                    <animate attributeName="y2" values="-1.7037086855465873;434.8947647971123" dur="10s" repeatCount="indefinite" begin="7.8s"/>
-                </line>
-                <set attributeName="visibility" to="visible" begin="7.8s"/>
-            </g>
-
-            <!-- devicon-plain:nextjs Meteor -->
-            <g filter="url(#meteorGlow)" visibility="hidden">
-                <line x1="615.6734366521229" y1="-50" x2="628.6143889072489" y2="-1.7037086855465873" stroke="url(#trail-1788050103604)" stroke-width="2" stroke-linecap="round">
-                    <animate attributeName="x1" values="615.6734366521229;732.6596450384623" dur="10s" repeatCount="indefinite" begin="8.9s"/>
-                    <animate attributeName="y1" values="-50;386.5984734826589" dur="10s" repeatCount="indefinite" begin="8.9s"/>
-                    <animate attributeName="x2" values="628.6143889072489;745.6005972935883" dur="10s" repeatCount="indefinite" begin="8.9s"/>
-                    <animate attributeName="y2" values="-1.7037086855465873;434.8947647971123" dur="10s" repeatCount="indefinite" begin="8.9s"/>
-                </line>
-                <svg x="612.6143889072489" y="-17.703708685546587" width="32" height="32" viewBox="0 0 128 128"  width="32" height="32" x="612.6143889072489" y="-17.703708685546587" ><path fill="currentColor" d="M64 0A64 64 0 0 0 0 64a64 64 0 0 0 64 64a64 64 0 0 0 35.508-10.838L47.014 49.34v40.238H38.4V38.4h10.768l57.125 73.584A64 64 0 0 0 128 64A64 64 0 0 0 64 0m17.777 38.4h8.534v48.776L81.777 75.97Zm24.18 73.92l-.111.096z"/></svg>
-                    <animate attributeName="x" values="612.6143889072489;729.6005972935883" dur="10s" repeatCount="indefinite" begin="8.9s"/>
-                    <animate attributeName="y" values="-17.703708685546587;418.8947647971123" dur="10s" repeatCount="indefinite" begin="8.9s"/>
-                </image>
-                <set attributeName="visibility" to="visible" begin="8.9s"/>
-            </g>
-
-            <!-- thesvg-color:vite Meteor -->
-            <g filter="url(#meteorGlow)" visibility="hidden">
-                <line x1="875.3737724879232" y1="-50" x2="888.3147247430493" y2="-1.7037086855465873" stroke="url(#trail-1788050128082)" stroke-width="2" stroke-linecap="round">
-                    <animate attributeName="x1" values="875.3737724879232;992.3599808742626" dur="10s" repeatCount="indefinite" begin="3.7s"/>
-                    <animate attributeName="y1" values="-50;386.5984734826589" dur="10s" repeatCount="indefinite" begin="3.7s"/>
-                    <animate attributeName="x2" values="888.3147247430493;1005.3009331293887" dur="10s" repeatCount="indefinite" begin="3.7s"/>
-                    <animate attributeName="y2" values="-1.7037086855465873;434.8947647971123" dur="10s" repeatCount="indefinite" begin="3.7s"/>
-                </line>
-                <set attributeName="visibility" to="visible" begin="3.7s"/>
-            </g>
-
-    <!-- ========== CENTER GLOWING RINGS ========== -->
+    <!-- Central Cyber Rings -->
     <g>
-        <circle cx="720.5" cy="151" r="51" fill="none" stroke="#f59e0b" stroke-width="2" stroke-dasharray="6,4" opacity="0.8" />
-        <circle cx="720.5" cy="151" r="47" fill="none" stroke="url(#glowGrad)" stroke-width="3" filter="url(#glow)" />
+        <circle cx="720.5" cy="151" r="56" fill="none" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4,6" opacity="0.6">
+            <animateTransform attributeName="transform" type="rotate" from="0 720.5 151" to="360 720.5 151" dur="20s" repeatCount="indefinite" />
+        </circle>
+        <circle cx="720.5" cy="151" r="50" fill="none" stroke="url(#glowGrad)" stroke-width="3" filter="url(#glow)"/>
+        <circle cx="720.5" cy="151" r="45" fill="#1e232a"/>
     </g>
 </svg>
