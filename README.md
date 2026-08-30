@@ -23,7 +23,7 @@
 
 ### 🦊 About Me
 
-<img align="right" width="150" src="https://64.media.tumblr.com/e1f1c97123ae217eb731500e502e0083/tumblr_n9dxcikmIU1qc9zfzo7_r1_250.gif" alt="Anime GIF" />
+<img align="right" width="140" src="./assets/avatar.png" alt="HONGSONNG Avatar" style="border-radius: 12px;" />
 
 - 💼 **Role:** Backend Developer (.NET) &nbsp;|&nbsp; ⏳ **Experience:** 1 year
 - ⚡ **Stacks:** .NET, React, Next.js, Node.js &nbsp;|&nbsp; 🎯 **Interests:** Distributed systems, UX/UI, Web Dev
