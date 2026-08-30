@@ -81,12 +81,3 @@
 <sub>Scan QR code or click badge to connect via Telegram (@hongsonng)</sub>
 
 </div>
-
----
-
-<div align="center">
-
-## 💖 Thanks for visiting!
-<img src="https://i.imgur.com/tzYKRfd.gif" width="160" alt="Footer GIF" />
-
-</div>
