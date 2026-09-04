@@ -13,10 +13,6 @@
 *There is a whole new world that you can build with code.*  
 *Focused on backend systems, clean interfaces, and practical products.*
 
-<br/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=hongsonng&color=22d3ee&style=for-the-badge&label=PROFILE+VIEWS)
-
 </div>
 
 ---
