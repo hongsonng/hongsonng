@@ -49,24 +49,24 @@
   <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=hongsonng&theme=dracula&hide_border=false&include_all_commits=true&count_private=true&layout=compact" height="165" alt="Top Languages" />
 </p>
 
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dracula" height="165" alt="Dev Quote" />
-</p>
-
 ---
 
 ### 📫 Connect with Me
 
-<div align="center">
-
-<a href="https://t.me/hongsonng">
-  <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Badge" />
-</a>
-<br/><br/>
-<a href="https://t.me/hongsonng">
-  <img src="./assets/telegram-qr.png" width="150" alt="Telegram QR @hongsonng" />
-</a>
-<br/>
-<sub>Scan QR code or click badge to connect via Telegram (@hongsonng)</sub>
-
-</div>
+<p align="center">
+  <a href="https://linkedin.com/in/hongsonng" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="mailto:hongsonng.dev@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  &nbsp;
+  <a href="https://t.me/hongsonng" target="_blank">
+    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/hongsonng" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" />
+  </a>
+</p>
