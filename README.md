@@ -6,7 +6,7 @@
 
 # ~ 💖 Welcome to my Profile 💖 ~
 
-<a href="https://github.com/hongsonng">
+<a href="https://github.com/hongsonng" style="text-decoration: none;">
   <img src="https://readme-typing-svg.demolab.com?font=Great+Vibes&weight=600&size=26&duration=3400&pause=900&color=22D3EE&center=true&vCenter=true&repeat=true&width=700&height=90&lines=hongsonng%20%E2%80%A2%20Nguy%E1%BB%85n%20H%E1%BB%93ng%20S%C6%A1n;Backend%20Developer;React%20%E2%80%A2%20Next.js%20%E2%80%A2%20.NET" alt="Typing Header" />
 </a>
 
@@ -31,7 +31,7 @@
 ### 🛠️ Tech Stack
 
 <p align="left">
-  <a href="https://skillicons.dev">
+  <a href="https://skillicons.dev" style="text-decoration: none;">
     <img src="https://skillicons.dev/icons?i=cs,dotnet,nodejs,express,mysql,mongodb,js,ts,html,css,sass,react,nextjs,vue,tailwind,redux,vite,git,vscode&perline=10" alt="Tech Stack" />
   </a>
 </p>
@@ -54,19 +54,19 @@
 ### 📫 Connect with Me
 
 <p align="center">
-  <a href="https://linkedin.com/in/hongsonng" target="_blank">
+  <a href="https://linkedin.com/in/hongsonng" target="_blank" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   &nbsp;
-  <a href="mailto:hongsonng.dev@gmail.com">
+  <a href="mailto:hongsonng.dev@gmail.com" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   &nbsp;
-  <a href="https://t.me/hongsonng" target="_blank">
+  <a href="https://t.me/hongsonng" target="_blank" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
   </a>
   &nbsp;
-  <a href="https://github.com/hongsonng" target="_blank">
+  <a href="https://github.com/hongsonng" target="_blank" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" />
   </a>
 </p>
